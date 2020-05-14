@@ -1,0 +1,32 @@
+.job-container {
+    width: 1180px;
+    height: 300px;
+    margin: 32px auto;
+}
+.job-left {
+    float: left;
+    width: 850px;
+    height: 300px;
+    box-shadow: 0px 0px 15px 0px rgba(31,56,88,0.08);
+}
+.job-right {
+    width: 310px;
+    height: 300px;
+    float: right;
+}
+.job-right-con {
+    display: block;
+    height: 140px;
+    text-align: center;
+    line-height: 140px;
+    background: #fff;
+    box-shadow: 0px 0px 15px 0px rgba(31,56,88,0.08);
+    border-radius: 3px;
+}
+.job-right-con:first-child {
+    margin-bottom: 20px;
+}
+.job-right-con img {
+   width: 179px;
+   vertical-align: middle;
+}
